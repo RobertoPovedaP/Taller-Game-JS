@@ -1,5 +1,20 @@
-const emojis={'-':' ','O':'🚪','X':'💣','I':'🎁','PLAYER':'💀','BOMB_COLLISION':'🔥','GAME_OVER':'👎','WIN':'🏆',};
-const maps=[];
+/*
+ * Reglas:
+ * El final de cada nivel debe ser el inicio del siguiente
+*/
+
+const emojis = {
+  '-': ' ',
+  'O': '🚪',
+  'X': '💣',
+  'I': '🎁',
+  'PLAYER': '💀',
+  'BOMB_COLLISION': '🔥',
+  'GAME_OVER': '👎',
+  'WIN': '🏆',
+};
+
+const maps = [];
 maps.push(`
   IXXXXXXXXX
   -XXXXXXXXX
@@ -35,4 +50,16 @@ maps.push(`
   XX-XXXXXXX
   XX-----OXX
   XXXXXXXXXX
+`);
+maps.push(`
+  I-------XX
+  XXXXX-X-XX
+  XX----X-XX
+  XX-XXX--XX
+  XXXX---XXX
+  XXXXXX-XXX
+  XX--XX-XXX
+  XX-X---XXX
+  XXXX--XXXX
+  XXXX---OXX
 `);
